@@ -43,8 +43,8 @@ The dataset used in this project is publicly available on Kaggle:
 
 A full project report summarizing methodology, analysis, results, and team contributions is available here:
 
-📥 [Download the Final Report (PDF)](https://github.com/maherrer/fake-news-detection/blob/main/fake-news-detection/report
-/Project Report For Fake Analysis.pd
+📥 [Project Report (PDF)](https://github.com/maherrer/fake-news-detection/blob/main/report/Fake_News_Project_Report.pdf)
+
 
   
 
