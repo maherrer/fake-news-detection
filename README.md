@@ -7,7 +7,11 @@ This project uses machine learning techniques to detect fake news by analyzing t
 ## Motivation
 Fake news creates confusion and misinformation. Identifying fake news helps preserve the integrity of information online.
 
-## Dataset
+- ## Dataset
+
+The dataset used in this project is publicly available on Kaggle:
+
+📎 [Fake and real news dataset – Kaggle](https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset)
 - Source: Kaggle
 - Size: 2047 news articles
 - Attributes include author, title, text, language, type, and publication date.
@@ -34,8 +38,38 @@ Fake news creates confusion and misinformation. Identifying fake news helps pres
 ## Contributors
 - Maybel Herrera
 - Other Team Members: Arti Ravi Garg, Rahul Gurujapu
+- 
+- ## 📄 Final Report
 
-## How to Run this Project
-1. Clone the repository:
-```bash
-git clone https://github.com/maherrer/fake-news-detection.git
+A full project report summarizing methodology, analysis, results, and team contributions is available here:
+
+📥 [Download the Final Report (PDF)](https://github.com/maherrer/fake-news-detection/blob/main/report/Project_Report_FakeNews.pdf)
+
+  
+
+## 🚀 How to Run this Project (Google Colab)
+
+1. Open the notebook directly in Google Colab:  
+📔 [fake_news_analysis.ipynb](https://github.com/maherrer/fake-news-detection/blob/main/notebook/fake_news_analysis.ipynb)
+
+2. Download the dataset from Kaggle:  
+📎 [Fake and real news dataset – Kaggle](https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset)
+
+3. In Colab, upload the CSV file manually using this code cell:
+
+```python
+from google.colab import files
+uploaded = files.upload()
+
+import pandas as pd
+import io
+df = pd.read_csv("news_articles.csv")
+
+🔸 Important: Make sure the uploaded file is named exactly:
+news_articles.csv
+
+Your notebook is set up to load it using:
+df = pd.read_csv("news_articles.csv")
+
+
+
